@@ -1,0 +1,7 @@
+:root {
+    --custom-clr-dark-grayish-blue: hsl(217, 19%, 35%);
+    --custom-clr-desaturated-dark-blue: hsl(214, 17%, 51%);
+    --custom-clr-grayish-blue: hsl(212, 23%, 69%);
+    --custom-clr-light-grayish-blue: hsl(210, 46%, 95%);
+    --custom-clr-body-bg: hsl(213, 44%, 95%);
+}
