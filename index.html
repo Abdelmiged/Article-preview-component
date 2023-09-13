@@ -13,6 +13,11 @@
   <title>Frontend Mentor | Article preview component</title>
 
   <style>
+    main {
+      box-shadow: 5px 4px 16px 10px hsl(210, 35%, 90%), 
+                 -5px 0px 16px 10px hsl(210, 35%, 90%);
+    }
+    
     .share-container > button {
       background-color: var(--custom-clr-desaturated-dark-blue);
     }
@@ -36,8 +41,8 @@
 
 </head>
 <body class="bg-[--custom-clr-body-bg] py-16 min-[1440px]:h-screen min-[1440px]:grid place-items-center">
-  <main class="flex flex-col items-center max-w-[21.875rem] rounded-xl m-auto min-[1440px]:flex-row min-[1440px]:h-[18.75rem] min-[1440px]:max-w-[50rem]">
-    <div class="image-container w-full rounded-t-[inherit] max-h-[14.375rem] min-[1440px]:rounded-l-[inherit] min-[1440px]:rounded-r-none min-[1440px]:max-h-none min-[1440px]:h-full min-[1440px]:w-[70%]">
+  <main class="flex flex-col items-center max-w-[21.875rem] rounded-xl m-auto min-[1440px]:flex-row min-[1440px]:max-w-[50rem] min-[1440px]:min-h-[18.75rem]">
+    <div class="image-container w-full rounded-t-[inherit] max-h-[14.375rem] min-[1440px]:rounded-l-[inherit] min-[1440px]:rounded-r-none min-[1440px]:max-h-none min-[1440px]:h-full min-[1440px]:w-[73%]">
       <img src="images/drawers.jpg" alt="Drawers Image" class="max-w-full rounded-t-[inherit] min-[1440px]:rounded-[inherit] min-[1440px]:h-full">
     </div>
     <div class="text-container p-8 bg-white rounded-b-[inherit] w-full pb-5 min-[1440px]:rounded-l-none min-[1440px]:rounded-r-[inherit] min-[1440px]:h-full min-[1440px]:p-10 relative">
